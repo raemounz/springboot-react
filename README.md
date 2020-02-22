@@ -1,8 +1,8 @@
 # Spring Boot and React
 
-This is a seed project using Spring Boot for backend and React for frontend.
+This is a seed project using [Spring Boot](https://start.spring.io) for backend and [React](https://reactjs.org) for frontend.
 
-The frontend provides named build configurations for development, staging,
+The frontend is created usinng [Create React App](https://create-react-app.dev).  It provides named build configurations for development, staging,
 and production environments respectively:
 
 - .env.dev
@@ -11,7 +11,7 @@ and production environments respectively:
 
 The project uses the following:
 
-- Material-UI for material design components
+- [Material-UI](https://material-ui.com/) for material design components
 
 ## Preview
 ![Spring Boot and React Preview](ui/src/images/preview.png)
