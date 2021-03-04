@@ -34,21 +34,27 @@ const Main: React.FC = () => {
                 This project is built with:
               </div>
               <div className={classes.item}>
-                <img src={springicon} className={classes.img} />
+                <img
+                  src={springicon}
+                  className={classes.img}
+                  alt="Spring Boot"
+                />
                 <a
                   href="https://start.spring.io"
                   target="_blank"
                   className={classes.link}
+                  rel="noreferrer"
                 >
                   Spring Boot
                 </a>
               </div>
               <div className={classes.item}>
-                <img src={reacticon} className={classes.img} />
+                <img src={reacticon} className={classes.img} alt="Create React App" />
                 <a
                   href="https://create-react-app.dev"
                   target="_blank"
                   className={classes.link}
+                  rel="noreferrer"
                 >
                   Create React App
                 </a>
@@ -62,6 +68,7 @@ const Main: React.FC = () => {
                   href="https://material-ui.com/"
                   target="_blank"
                   className={classes.link}
+                  rel="noreferrer"
                 >
                   Material-UI
                 </a>
